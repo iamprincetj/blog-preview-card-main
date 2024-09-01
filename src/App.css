@@ -25,6 +25,16 @@ button {
   margin-bottom: 1rem;
 }
 
+.main-text {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .title {
   margin-bottom: 1rem;
   font-weight: 800;
@@ -37,6 +47,24 @@ button {
 
 .card > p {
   margin-bottom: 1rem;
+}
+
+.avatar-container {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.avatar-name {
+  text-align: center;
+  line-height: 5rem;
+  font-weight: 800;
 }
 
 @media screen and (min-width: 1440px) {

@@ -2,39 +2,31 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className='card'>
-      <img className='img' src='/images/illustration-article.svg' alt='' />
+    <main className='card'>
+      <img
+        className='img'
+        src='/images/illustration-article.svg'
+        alt='main image'
+      />
       <button>Learning</button>
-      <p style={{ fontSize: "12px", fontWeight: "500" }}>
-        Published 21 Dec 2023
-      </p>
+      <p className='date'>Published 21 Dec 2023</p>
       <h3 className='title'>HTML & CSS foundations</h3>
 
-      <p style={{ color: "#aaa", fontSize: "14px" }}>
+      <p className='main-text'>
         {" "}
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
 
-      <div
-        style={{
-          display: "flex",
-          height: "5rem",
-          alignItems: "center",
-        }}
-      >
+      <div className='avatar-container'>
         <img
+          className='avatar'
           src='/images/image-avatar.webp'
-          alt=''
-          style={{ width: "50px", height: "50px", marginRight: "1rem" }}
+          alt='avatar image'
         />
-        <span
-          style={{ textAlign: "center", lineHeight: "5rem", fontWeight: "800" }}
-        >
-          Greg Hooper
-        </span>
+        <span className='avatar-name'>Greg Hooper</span>
       </div>
-    </div>
+    </main>
   );
 };
 
