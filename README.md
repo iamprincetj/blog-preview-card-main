@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/iamprincetj/blog-preview-card-main)
-- Live Site URL: [ptj-notification-main](https://ptj-notification-main.netlify.app/)
+- Live Site URL: [ptj-blog-main](https://ptj-blog-main.netlify.app//)
 
 ## My process
 
