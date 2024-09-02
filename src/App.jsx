@@ -10,7 +10,7 @@ const App = () => {
       />
       <button>Learning</button>
       <p className='date'>Published 21 Dec 2023</p>
-      <h3 className='title'>HTML & CSS foundations</h3>
+      <h1 className='title'>HTML & CSS foundations</h1>
 
       <p className='main-text'>
         {" "}
